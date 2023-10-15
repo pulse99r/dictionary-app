@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+body {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+}
+
+.header-bar {
+    align-items: center;
+    border-bottom: 3px solid rgb(193, 193, 193);
+    display: flex;
+    flex-direction: row;
+    font-size: 50px;
+    justify-content: center;
+    height: 80px;
+}
+
+.content-container {
+    border-bottom: 3px solid rgb(193, 193, 193);
+    display: flex;
+    flex-direction: row;
+    min-height: 600px;
+}
+.search-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 40%;
+}
+@media (max-width: 1074px) {
+    .content-container {
+        flex-direction: column;
+    }
+    .search-box{
+        width: 100%;
+    }
+}
+
+.search-box input, .search-box button {
+    font-family: 'Lato', sans-serif;
+    font-size: 24px;
+    height: 40px;
+    margin: 15px;
+}
+.search-box input{
+    margin-right: 10px;
+    padding: 10px 0 10px 0;
+    width: 65%;
+}
+
+.search-box button{
+    font-family: 'Lato', sans-serif;
+    height: 66px;
+    padding: 10px 0 10px 0;
+    width: 30%;
+}
+.definitions-box {
+    border-left: 3px solid rgb(193, 193, 193);
+    font-size: 20px;
+    padding: 10px;
+    width: 90%;
+}
+.definitions-box h3{
+    margin: 0;
+}
+
